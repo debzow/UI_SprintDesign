@@ -1,6 +1,23 @@
-h1 {
+button {
+	border : node;
+	border: none;
+	height : 35px;
+  width: 80px;
+  border-radius : 15px;
 
-	background-color: blue;
 
 }
 
+.button-blue {
+	background-color :green;
+	color: white;
+}
+
+.button-red {
+	background-color : red;
+	color: white;
+}
+
+.container-button button:hover {
+	border : 5px solid rgb(223, 226, 14);
+}

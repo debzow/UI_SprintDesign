@@ -2,8 +2,9 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8">
-    <title>Google</title>
+    <title>UI_SprintDesign</title>
 
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/avatar.css">
     <link rel="stylesheet" href="css/card.css">
@@ -15,7 +16,78 @@
   </head>
   <body>
 
-    <h1> Je suis index </h1>
+    <nav >
+  
+      <div class="nav-left">
+        <img src="./images/logo.jpeg" class="logo">
+      </div>
+
+      <div class="nav-right">
+        <div class="nav-button">
+          <a href="#">
+            <button type="button">Home</button>
+          </a>
+          <a href="#">
+            <button type="button">Team</button>
+          </a>
+          <a href="#">
+            <button type="button">Contact</button>
+          </a>
+        </div>  
+        <div class="nav-user">
+          <strong>Debzow</strong>
+          <div class="dropdown">
+              <img src="./images/lion_blanc.jpeg" class="nav-avatar">
+              <div class="dropdown-content">
+                <a href="#">Profil</a>
+                <a href="#">Logout</a>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </nav>
+
+
+      <section>
+        <!-- card -->
+        <div class="card">
+          <!-- Image -->
+          <img src="./images/avatar.jpeg" class="avatar">
+          <div class="container-detail">
+            <strong>JaJa</strong> 
+            <p>Best album ever</p> 
+            <div class="container-button">
+                <!-- button -->
+                <a href="#">
+                  <button class="button-blue">Update</button>
+                </a>
+                <a href="#">
+                  <button class="button-red">Delete</button>
+                </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  <footer>
+      <div class="footer-a">
+        <a href="#tab-1">Songe One</a>
+        <a href="#tab-2">Song Two</a>
+        <a href="#tab-3">Song Three</a>
+      </div>
+      <div class="footer-tab-display">
+        <div id="tab-1">
+          Redemption Song
+        </div>
+        <div id="tab-2">
+          Is This Love 
+        </div>  
+        <div id="tab-3">
+            Buffalo Soldier
+          </div> 
+      </div>
+    </footer>
 
 
   </body>

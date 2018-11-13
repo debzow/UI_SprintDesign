@@ -1,0 +1,41 @@
+footer {
+  width: 50%;
+  border : 2px ridge grey;
+  border-radius : 15px;
+}
+
+.footer-a {
+  display: flex;
+  flex-direction: row;
+	justify-content: space-around;
+}
+
+.footer-tab-display {
+  display: flex;
+  flex-direction: row;
+	justify-content: center;
+}
+
+#tab-1:not(:target) {
+  display: none;
+}
+
+#tab-1:target {
+  display: block;
+}
+
+#tab-2:not(:target) {
+  display: none;
+}
+
+#tab-2:target {
+  display: block;
+}
+
+#tab-3:not(:target) {
+  display: none;
+}
+
+#tab-3:target {
+  display: block;
+}

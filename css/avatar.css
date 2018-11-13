@@ -1,5 +1,28 @@
-h2 {
+.avatar {
+  display: block;
+  width: 120px;
+  height: 120px;
+  background: #E6E7ED;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  background-size: 120px;
+  background-position:50% 50%;
+  background-repeat:no-repeat;    
+}
 
-	background-color: red;
+.nav-avatar {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: #E6E7ED;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  background-size: 60px;
+  background-position:50% 50%;
+  background-repeat:no-repeat;    
+}
 
+.logo {
+  width: 60px;
+  height: 60px;
 }
