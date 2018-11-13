@@ -1,13 +1,17 @@
 footer {
+  height: 80px;
   width: 50%;
   border : 2px ridge grey;
   border-radius : 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .footer-a {
   display: flex;
   flex-direction: row;
-	justify-content: space-around;
+  justify-content: space-around;
 }
 
 .footer-tab-display {
